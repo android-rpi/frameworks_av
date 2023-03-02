@@ -1080,7 +1080,7 @@ C2PlatformComponentStore::C2PlatformComponentStore()
     emplace("libcodec2_soft_amrwbdec.so");
     emplace("libcodec2_soft_amrwbenc.so");
     //emplace("libcodec2_soft_av1dec_aom.so"); // deprecated for the gav1 implementation
-    emplace("libcodec2_soft_av1dec_gav1.so");
+    //emplace("libcodec2_soft_av1dec_gav1.so");
     emplace("libcodec2_soft_avcdec.so");
     emplace("libcodec2_soft_avcenc.so");
     emplace("libcodec2_soft_flacdec.so");
@@ -1090,7 +1090,7 @@ C2PlatformComponentStore::C2PlatformComponentStore()
     emplace("libcodec2_soft_gsmdec.so");
     emplace("libcodec2_soft_h263dec.so");
     emplace("libcodec2_soft_h263enc.so");
-    emplace("libcodec2_soft_hevcdec.so");
+    //emplace("libcodec2_soft_hevcdec.so");
     emplace("libcodec2_soft_hevcenc.so");
     emplace("libcodec2_soft_mp3dec.so");
     emplace("libcodec2_soft_mpeg2dec.so");
@@ -1102,7 +1102,7 @@ C2PlatformComponentStore::C2PlatformComponentStore()
     emplace("libcodec2_soft_vorbisdec.so");
     emplace("libcodec2_soft_vp8dec.so");
     emplace("libcodec2_soft_vp8enc.so");
-    emplace("libcodec2_soft_vp9dec.so");
+    //emplace("libcodec2_soft_vp9dec.so");
     emplace("libcodec2_soft_vp9enc.so");
 
 }
